@@ -11,3 +11,7 @@ To update remote repo name to yout local: $git remote set-url [remote_branch] [g
 Example:
 $git remote set-url origin https://github.com/vidalglez/website.git
 
+To review information for our remote repo and see if project name matches: $git remote show [branch_name]
+
+Example:
+$git remote show origin
