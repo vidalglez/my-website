@@ -15,3 +15,5 @@ To review information for our remote repo and see if project name matches: $git 
 
 Example:
 $git remote show origin
+
+To push changes to remote repository: git push -u [remote repo] [branch]
