@@ -17,3 +17,13 @@ Example:
 $git remote show origin
 
 To push changes to remote repository: git push -u [remote repo] [branch]
+
+To perform merge in yourlocal: my-website (master) $ git merge [branch_to_merge]
+
+Example: my-website (master) $ git merge remove-ipsum
+
+To list all your branches: $ git branch -a
+
+To delete a branch: $ git branch -d [nameofbranch]
+
+To look for death branches and remove references: $ git fetch -p
