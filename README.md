@@ -27,3 +27,5 @@ To list all your branches: $ git branch -a
 To delete a branch: $ git branch -d [nameofbranch]
 
 To look for death branches and remove references: $ git fetch -p
+
+To review if there is a remote branch that doesn't exist in local: $ git fetch
