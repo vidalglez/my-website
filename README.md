@@ -60,3 +60,8 @@ Example: $ git push origin stable
 
 If there are multiple tags in local repo, to push all of them to remote repo: $ git push --tags
 
+To delete a tag in your local: $ git tag -d [existing tag name]
+
+Once deleted, to synchronize with your remote repo: $ git push [local remote branch] :[tag namme deleted]
+Example: $ git push origin :v0.2-alpha
+
