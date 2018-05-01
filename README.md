@@ -65,3 +65,11 @@ To delete a tag in your local: $ git tag -d [existing tag name]
 Once deleted, to synchronize with your remote repo: $ git push [local remote branch] :[tag namme deleted]
 Example: $ git push origin :v0.2-alpha
 
+To update a tag with another commit id in your local repo: $ git tag -f [tag name] [commit id]
+
+Example: $ git tag -f unstable 7e0feee
+
+To see the same updated tag in remote repo, you can delete such branch in remote repo and push tag from your local, but you can try also with $ git push --force [local remote repo] [tag name]
+
+Example: $ git push --force origin unstable
+
