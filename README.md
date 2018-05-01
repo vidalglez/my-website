@@ -41,5 +41,7 @@ To https://github.com/vidalglez/website.git
 
 To revivew Github graphs: $ git log --oneline --graph
 
-This is a potential problematic change
-Setting another bad line causing conflict
+When a conflict is detected pulling changes from remote you can use: 
+$ git mergetool
+
+The only detail will be that you need to install and configure a mereg tool like p4merge or beyondcompare
