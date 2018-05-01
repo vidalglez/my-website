@@ -31,9 +31,13 @@ To look for death branches and remove references: $ git fetch -p
 To review if there is a remote branch that doesn't exist in local: $ git fetch
 
 To delete remote branch once you removed from your local($ git branch -d 'update-readme' ): $ git push [remote_branch] :[removed_branch]
+
 Example: 
 my-website (master) $ git branch -d 'update-readme'
 Deleted branch update-readme (was 972336c).
 my-website (master) $ git push origin :update-readme
 To https://github.com/vidalglez/website.git
  - [deleted]         update-readme
+
+To revivew Github graphs: $ git log --oneline --graph
+
